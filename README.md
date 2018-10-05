@@ -8,11 +8,16 @@ $mvnw clean package
 ```
 
 
-$OCP Pipeline
+#OCP Pipeline
+
 Grant Jenkins Access to Projects
+
 oc policy add-role-to-user edit system:serviceaccount:aa53ab63-tools:jenkins -n aa53ab63-dev
+
 oc policy add-role-to-user edit system:serviceaccount:aa53ab63-tools:jenkins -n aa53ab63-uat
+
 oc policy add-role-to-user edit system:serviceaccount:aa53ab63-tools:jenkins -n aa53ab63-prod
+
 
 
 

@@ -10,6 +10,8 @@ $mvnw clean package
 
 #OCP Pipeline
 
+Add deployment:deployment123 user to nexus
+
 Grant Jenkins Access to Projects
 
 oc policy add-role-to-user edit system:serviceaccount:aa53ab63-tools:jenkins -n aa53ab63-dev

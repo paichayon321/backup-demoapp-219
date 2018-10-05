@@ -126,7 +126,7 @@
 
   <profiles>
 		<profile>
-			<id>nexus3</id>
+			<id>nexus</id>
 			<distributionManagement>
 				<repository>
 					<id>nexus</id>

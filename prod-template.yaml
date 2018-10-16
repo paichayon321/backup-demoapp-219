@@ -152,4 +152,4 @@ parameters:
 - displayName: Image Namespace
   description: The namespace to push the built images to
   name: IMAGE_NAMESPACE
-  value: brewery-cicd
+  value: ${IMAGE_NAMESPACE}

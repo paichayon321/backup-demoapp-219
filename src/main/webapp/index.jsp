@@ -6,9 +6,9 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Demo</title>
 </head>
-<body bgcolor=pink>
+<body bgcolor=blue>
 
-   <h1>Demo Login Application Green</h1>
+   <h1>Demo Login Application Blue</h1>
 
 	<form action="./login">
 		<table>

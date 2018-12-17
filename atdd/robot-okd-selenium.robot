@@ -30,7 +30,7 @@ OpenLoginURL Login
   #...  driver = webdriver.Remote(command_executor, desired_capabilities=capabilities)
   # Run selenium from CICD Platform
   ...  remote_url=http://selenium-hub:4444/wd/hub
-  ...  desired_capabilities=browserName: chrome,platformName: LINUX, seleniumProtocol: WebDriver,version:70.0.3538.110
+  ...  desired_capabilities=browserName: chrome,platformName: LINUX, seleniumProtocol: WebDriver,version:71.0.3578.98
 
 
 Fill username

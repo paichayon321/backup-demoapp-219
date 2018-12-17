@@ -19,12 +19,19 @@ OpenLoginURL Login
   Open Browser   ${URL}
   #...  browser=chrome
   #...  remote_url=http://10.22.66.240:4444/wd/hub
-  #...  remote_url=http://selenium.180.222.156.218.xip.io/wd/hub
- ...  remote_url=http://selenium-hub-tools.okd.45.116.216.140.xip.io/wd/hub
   #...  remote_url=http://180.222.156.219:30444/wd/hub
   #...  desired_capabilities=browserName:chrome,platform:MAC,platformName:MAC
-  #...  desired_capabilities=browserName:chrome,platform:LINUX,version:62.0.3202.75,seleniumProtocol: WebDriver
-  desired_capabilities=browserName:chrome,platform:LINUX
+  #...  desired_capabilities=browserName:chrome,platform:LINUX,version:62.0.3202.94,seleniumProtocol: WebDriver
+  
+  # Run selenium on opehshift now noet support route, please use node port
+#  ...  remote_url=http://45.116.216.140.xip.io:30444/wd/hub
+#  ...  desired_capabilities=browserName: chrome,platformName: LINUX,resolve_ip: False,seleniumProtocol: WebDriver,version:71.0.3578.98
+  #...  command_executor = RemoteConnection(cfg.selenium.web_driver, resolve_ip=False)
+  #...  driver = webdriver.Remote(command_executor, desired_capabilities=capabilities)
+  # Run selenium from CICD Platform
+  ...  remote_url=http://selenium-hub:4444/wd/hub
+  ...  desired_capabilities=browserName: chrome,platformName: LINUX, seleniumProtocol: WebDriver,version:70.0.3538.110
+
 
 Fill username
   Input Text  id:user  user1

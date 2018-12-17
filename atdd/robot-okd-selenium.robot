@@ -5,7 +5,7 @@ Test Teardown   Close Browser
 *** Variables ***
 ${URL}  http://localhost:8082/demo/
 
-*** Testcase ***
+*** Test Case ***
 Login fail - testing
   OpenLoginURL Login
   Fill username

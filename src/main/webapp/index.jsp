@@ -6,7 +6,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Demo</title>
 </head>
-<body bgcolor=blue>
+<body bgcolor=orange>
 
    <h1>Demo Login Application Blue</h1>
 
